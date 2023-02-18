@@ -1,0 +1,40 @@
+<resources>
+    // Common
+    <string name="app_name">Pagar Dívidas</string>
+    <string name="finish">Concluir</string>
+
+    // Resume Payment
+    <string name="resume_payment">Resumo do pagamento</string>
+    <string name="resume_payment_installment">Parcelas</string>
+    <string name="resume_payment_date_payment">Data do Pagamento</string>
+    <string name="resume_payment_left_1">Total:</string>
+    <string name="resume_payment_left_2">Crédito</string>
+    <string name="resume_payment_left_3">Taxa (%)</string>
+    <string name="resume_payment_left_4">Pago</string>
+    <string name="resume_payment_left_5">Valor Restando</string>
+    <string name="resume_payment_right_1">R$ 1.501,26</string>
+    <string name="resume_payment_right_2">R$ 59,25</string>
+    <string name="resume_payment_right_3">3,00</string>
+    <string name="resume_payment_right_4">1.021,98</string>
+    <string name="resume_payment_right_5">R$ 479,28</string>
+
+    // Chosen Installments
+    <string name="chosen_installments">Parcelas escolhidas</string>
+    <string name="chosen_installments_item_one_value">R$ 1.250,63</string>
+    <string name="chosen_installments_item_one_date">15/07/2018</string>
+    <string name="chosen_installments_item_one_description">Reduzido para R$ 169,40</string>
+    <string name="chosen_installments_item_two_value">R$ 250,63</string>
+    <string name="chosen_installments_item_two_date">15/06/2017</string>
+    <string name="chosen_installments_item_two_description">Saldo insuficiente para pagar.</string>
+
+    // Payment
+    <string name="payment">Pagamentos</string>
+    <string name="payment_money">Dinheiro</string>
+    <string name="payment_check">Cheque</string>
+    <string name="payment_add_payment">Adicionar Pagamento</string>
+    <string name="payment_value_item_one_value">R$ 340,59</string>
+    <string name="payment_value_item_one_date">17/07/2018</string>
+    <string name="payment_value_item_two_and_three_value">R$ 340,66</string>
+    <string name="payment_value_item_two_and_three_date">27/07/2018</string>
+    <string name="payment_after_payment">Pepinos após pagamentos</string>
+</resources>
