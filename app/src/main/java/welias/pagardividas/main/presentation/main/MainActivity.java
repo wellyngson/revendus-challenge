@@ -9,7 +9,7 @@ import java.util.List;
 import welias.pagardividas.databinding.ActivityMainBinding;
 import welias.pagardividas.main.data.model.Installment;
 import welias.pagardividas.main.data.model.Payment;
-import welias.pagardividas.main.data.model.ResumeResumePayments;
+import welias.pagardividas.main.data.model.ResumePayments;
 
 public class MainActivity extends AppCompatActivity implements MainContract.MainView {
 
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements MainContract.Main
     private void getPayments() { presenter.getPayments(); }
 
     @Override
-    public void showResumePayments(ResumeResumePayments resumePayments) {
+    public void showResumePayments(ResumePayments resumePayments) {
         binding.resumePayments.setupNumberInstallment(resumePayments.getNumberInstallments().toString());
         binding.resumePayments.setupDate(resumePayments.getDatePayment());
         binding.resumePayments.submitList(resumePayments.getValues());

@@ -40,7 +40,7 @@ public class Payment implements MainContract.MainModel.PaymentsModel {
 
     @Override
     public List<Payment> getPayments() {
-        List<Payment> payments = new ArrayList();
+        List<Payment> payments = new ArrayList<>();
         payments.add(new Payment(PaymentType.MONEY, R.string.payment_value_item_one_value, R.string.payment_value_item_one_date));
         payments.add(new Payment(PaymentType.MONEY, R.string.payment_value_item_two_and_three_value, R.string.payment_value_item_two_and_three_date));
         payments.add(new Payment(PaymentType.CHECK, R.string.payment_value_item_two_and_three_value, R.string.payment_value_item_two_and_three_date));

@@ -2,12 +2,12 @@ package welias.pagardividas.main.presentation.main;
 
 import welias.pagardividas.main.data.model.Installment;
 import welias.pagardividas.main.data.model.Payment;
-import welias.pagardividas.main.data.model.ResumeResumePayments;
+import welias.pagardividas.main.data.model.ResumePayments;
 
 public class MainPresenter implements MainContract.MainPresenter {
 
     private final MainContract.MainView view;
-    private final MainContract.MainModel.ResumePaymentsModel resumePaymentsModel = new ResumeResumePayments();
+    private final MainContract.MainModel.ResumePaymentsModel resumePaymentsModel = new ResumePayments();
     private final MainContract.MainModel.InstallmentModel installmentModel = new Installment();
     private final MainContract.MainModel.PaymentsModel paymentsModel = new Payment();
 

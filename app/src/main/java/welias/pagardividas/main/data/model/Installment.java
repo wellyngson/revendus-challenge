@@ -30,24 +30,12 @@ public class Installment implements MainContract.MainModel.InstallmentModel {
         return value;
     }
 
-    public void setValue(int value) {
-        this.value = value;
-    }
-
     public int getDate() {
         return date;
     }
 
-    public void setDate(int date) {
-        this.date = date;
-    }
-
     public int getDescription() {
         return description;
-    }
-
-    public void setDescription(int description) {
-        this.description = description;
     }
 
     @Override

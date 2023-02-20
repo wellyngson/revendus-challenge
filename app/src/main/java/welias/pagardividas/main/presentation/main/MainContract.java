@@ -4,11 +4,11 @@ import java.util.List;
 
 import welias.pagardividas.main.data.model.Installment;
 import welias.pagardividas.main.data.model.Payment;
-import welias.pagardividas.main.data.model.ResumeResumePayments;
+import welias.pagardividas.main.data.model.ResumePayments;
 
 public interface MainContract {
     interface MainView {
-        void showResumePayments(ResumeResumePayments resumePayments);
+        void showResumePayments(ResumePayments resumePayments);
         void showGetInstallments(List<Installment> installments);
         void showPayments(List<Payment> payments);
     }
@@ -21,7 +21,7 @@ public interface MainContract {
 
     interface MainModel {
         interface ResumePaymentsModel {
-            ResumeResumePayments getResumePayments();
+            ResumePayments getResumePayments();
 
         }
 
